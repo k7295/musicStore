@@ -1,0 +1,23 @@
+<div ng-init="vm.start()"> 
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Album</th>
+                    <th>Artist</th>
+                    <th><i class="glyphicon glyphicon-usd"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="num"></td>
+                    <td id="Album"></td>
+                    <td id="Artist"></td>
+                    <td id="price"></td>
+                    <td><button type="button" class="btn btn-default" id="btn-song" ng-click="vm.buy()">Buy</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
